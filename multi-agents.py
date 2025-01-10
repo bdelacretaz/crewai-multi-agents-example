@@ -42,7 +42,7 @@ info_agent = Agent(
         You are very good at telling interesting facts.
         You don't give any wrong information if you don't know it.
     """,
-    llm='ollama/llava:7b'  # Model for general knowledge retrieval
+    llm='ollama/llama3.2'  # Model for general knowledge retrieval
 )
 
 # Task 1: Check if the image is an animal
